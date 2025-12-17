@@ -1,0 +1,11 @@
+name: dev_practice
+on: 
+  pull_request:
+    branches:
+        develop
+jobs:
+  pr_jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: welcome
+        run: echo "welcome to workflow"
