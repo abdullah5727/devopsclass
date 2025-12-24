@@ -1,0 +1,30 @@
+# Node modules (if using Node.js tools like npm or yarn)
+node_modules/
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Package distribution (in case you compress or bundle files)
+*.tgz
+*.tar.gz
+
+# Testing directories (if you generate coverage reports)
+coverage/
+
+# Environment files (if you're using environment variables, though not common in plain HTML/CSS)
+.env
